@@ -18,12 +18,11 @@
             </thead>
             <tbody id="data-table-body">
                 <tr>
-                    <td id="jumlah-mahasiswa">0</td>
-                    <td id="jumlah-dosen">0</td>
+                    <td id="jumlah-mahasiswa">{{$jumlahMahasiswa}}</td>
+                    <td id="jumlah-dosen">{{$jumlahDosen}}</td>
                 </tr>
             </tbody>
         </table>
-        <button class="btn btn-primary mt-3" onclick="ambilDataDashboard()">Perbarui Data</button>
     </div>
 
     <script>
